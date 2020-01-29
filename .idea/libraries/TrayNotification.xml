@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="TrayNotification">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/TrayNotification.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jfoenix.jar!/" />
+      <root url="jar://$PROJECT_DIR$/itextpdf-5.1.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

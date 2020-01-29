@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.Blend?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="500.0" prefWidth="700.0" style="-fx-background-color: #01dfd5;" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sn.isi.gestionbanque.MenuCompteController">
+   <children>
+      <Pane layoutX="6.0" layoutY="7.0" prefHeight="487.0" prefWidth="688.0" style="-fx-background-color: #0d415a; -fx-background-radius: 20; -fx-border-color: gray; -fx-border-radius: 20; -fx-border-width: 2;">
+         <effect>
+            <Blend />
+         </effect>
+         <children>
+            <JFXButton buttonType="RAISED" layoutX="107.0" layoutY="196.0" onAction="#courant" prefHeight="64.0" prefWidth="280.0" ripplerFill="#01dfd5" style="-fx-background-color: #0d415a;" text="COURANT &amp; Epargne" textFill="WHITE">
+               <font>
+                  <Font name="Bauhaus 93" size="23.0" />
+               </font>
+            </JFXButton>
+            <JFXButton buttonType="RAISED" layoutX="439.0" layoutY="196.0" onAction="#bloque" prefHeight="64.0" prefWidth="194.0" ripplerFill="#01dfd5" style="-fx-background-color: #0d415a;" text="BLOQUE" textFill="WHITE">
+               <font>
+                  <Font name="Bauhaus 93" size="23.0" />
+               </font>
+            </JFXButton>
+            <Button layoutX="633.0" layoutY="9.0" mnemonicParsing="false" onAction="#deconnexion" opacity="0.0" prefHeight="45.0" prefWidth="51.0" />
+         </children>
+      </Pane>
+      <Label fx:id="params" layoutX="91.0" layoutY="82.0" prefHeight="32.0" prefWidth="532.0" textFill="#00ffdd">
+         <font>
+            <Font name="Bauhaus 93" size="30.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
